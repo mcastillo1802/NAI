@@ -48,41 +48,51 @@
             </div>
         </div>
     </nav>
-    <p align="center"><img src="img/banners/SEASONS.jpg" alt="" /></p>
+    <div class="centro">
+        <p align="center"><img src="img/banners/SEASONS.png" width="579" height="181" alt="" /></p>
+    </div>
     <div class="container-fluid tm-container-content tm-mt-60">
         <div class="row mb-4">
             <h2 class="col-6 tm-text-primary">ESTACIONES DEL AÑO</h2>
         </div>
         <div class="row tm-mb-90 tm-gallery">
-            
+
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
                     <button id="boton" onclick="spri.play()"><img src="img/estaciones/pri.jpg" alt="Image"
-                        class="img-fluid">PRIMAVERA / SPRING</button>       
+                            class="img-fluid">PRIMAVERA / SPRING</button>
                 </figure>
             </div>
 
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <button onclick="sver.play()"><img src="img/estaciones/ver.jpg" alt="Image"
-                        class="img-fluid">VERANO / SUMMER</button>
+                    <button onclick="sver.play()"><img src="img/estaciones/ver.jpg" alt="Image" class="img-fluid">VERANO
+                        / SUMMER</button>
                 </figure>
             </div>
-            
+
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <button onclick="soto.play()"><img src="img/estaciones/oto.jpg" alt="Image"
-                        class="img-fluid">OTOÑO / AUTUMN</button>
+                    <button onclick="soto.play()"><img src="img/estaciones/oto.jpg" alt="Image" class="img-fluid">OTOÑO
+                        / AUTUMN</button>
                 </figure>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
                     <button onclick="sinv.play()"><img src="img/estaciones/inv.jpg" alt="Image"
-                        class="img-fluid">INVIERNO / WINTER</button>
+                            class="img-fluid">INVIERNO / WINTER</button>
                 </figure>
             </div>
-            
         </div> <!-- row -->
+
+        <!-- Boton de Quiz -->
+
+        <div>
+            <div class="text-center">
+                <a href="#" class="btn btn-primary">Realizar Quiz</a>
+            </div>
+        </div>
+
         <div class="row tm-mb-90"> </div>
     </div> <!-- container-fluid, tm-container-content -->
 
@@ -133,7 +143,7 @@
             $('body').addClass('loaded');
         });
     </script>
-    
+
     <!-- audios -->
     <audio id="spri" src="Sonidos/spring.mp3"></audio>
     <audio id="sinv" src="Sonidos/winter.mp3"></audio>
